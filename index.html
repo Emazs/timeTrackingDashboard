@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- displays site properly based on user's device -->
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <title>Frontend Mentor | Time tracking dashboard</title>
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+
+    <body>
+        <section class="container">
+            <section class="container__profile">
+                <article class="profile__user">
+                    <img src="/timeTrackingDashboard/images/image-jeremy.png" alt="Imagen de usuario" class="profile__image--modifier">
+                    <div class="profile__information">
+                        <p>Report for</p>
+                        <p>Jeremy Robson</p>
+                    </div>
+                </article>
+
+                <article class="profile__week">
+                    <p class="menu">Daily</p>
+                    <p class="menu">Weekly</p>
+                    <p class="menu">Monthly</p>
+                </article>
+            </section>
+            
+            <section class="container__cards">
+
+                <div class="card card__work">  
+                    <div class="card__image card__image--backOrange"></div>
+                    <div class="card__informatio--modifier">
+                        <div class="card__title">
+                            <p>Work</p>
+                            <img src="/timeTrackingDashboard/images/icon-ellipsis.svg" alt="Imagen de menu, tres puntos" class="icon-menu">
+                        </div>
+                        
+                        <div class="card__hours">
+                            <p><span class="work__hour">32</span>hrs</p> <!-- weekly -->
+                            <p>Previous - <span class="work__week">36</span>hrs</p> <!-- weekly -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card card__play">
+                    <div class="card__image card__image--backBlue "></div> 
+                    <div class="card__informatio--modifier">
+                        <div class="card__title">
+                            <p>Play</p>
+                            <img src="/timeTrackingDashboard/images/icon-ellipsis.svg" alt="Imagen de menu, tres puntos" class="icon-menu">
+                        </div>
+                        
+                        <div class="card__hours">
+                            <p><span class="play__hour">10</span>hrs</p> <!-- weekly -->
+                            <p>Previous - <span class="play__week">8</span>hrs</p> <!-- weekly -->
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card card__study">
+                    <div class="card__image card__image--backPink"></div> 
+                    <div class="card__informatio--modifier">
+
+                        <div class="card__title">
+                            <p>Study</p>
+                            <img src="/timeTrackingDashboard/images/icon-ellipsis.svg" alt="Imagen de menu, tres puntos" class="icon-menu">
+                        </div>
+                        
+                        <div class="card__hours">
+                            <p><span class="study__hour">4</span>hrs</p> <!-- weekly -->
+                            <p>Previous - <span class="study__week">7</span>hr</p> <!-- weekly -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card card__exercise">
+                    <div class="card__image card__image--backGreen"></div> 
+                    <div class="card__informatio--modifier">
+                        <div class="card__title">
+                            <p>Exercise</p>
+                            <img src="/timeTrackingDashboard/images/icon-ellipsis.svg" alt="Imagen de menu, tres puntos" class="icon-menu">
+                        </div>
+                        
+                        <div class="card__hours">
+                            <p><span class="excercise__hour">4</span>hrs</p> <!-- weekly -->
+                            <p>Previous - <span class="excercise__week">5</span>hrs</p> <!-- weekly -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card card__social">
+                    <div class="card__image card__image--backViolet"></div> 
+                    <div class="card__informatio--modifier">
+                        <div class="card__title">
+                            <p>Social</p>
+                            <img src="/timeTrackingDashboard/images/icon-ellipsis.svg" alt="Imagen de menu, tres puntos" class="icon-menu">
+                        </div>
+                        
+                        <div class="card__hours">
+                            <p><span class="social__hour">5</span>hrs</p> <!-- weekly -->
+                            <p>Previous - <span class="social__week">10</span>hrs</p> <!-- weekly -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card card__self">
+                    <div class="card__image card__image--backSoftOrange"></div> 
+                    <div class="card__informatio--modifier">
+                        <div class="card__title">
+                            <p>Self Care</p>
+                            <img src="/timeTrackingDashboard/images/icon-ellipsis.svg" alt="Imagen de menu, tres puntos" class="icon-menu">
+                        </div>
+                        
+                        <div class="card__hours">
+                            <p><span class="self__hour">2</span>hrs</p> <!-- weekly -->
+                            <p>Previous - <span class="self__week">2</span>hrs</p> <!-- weekly -->
+                        </div>
+                    </div>
+                </div>            
+            </section>
+        </section>
+
+        <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+        </div> -->
+
+        <script type="module" src="/timeTrackingDashboard/scripts/Script.js"></script>
+        
+    </body>
+
+</html>
